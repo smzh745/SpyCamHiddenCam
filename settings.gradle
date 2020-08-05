@@ -1,0 +1,3 @@
+include ':spycamhidden'
+include ':app'
+rootProject.name = "SpyCamHiddenCam"
