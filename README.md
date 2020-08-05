@@ -13,5 +13,5 @@ allprojects {
 
 
 dependencies {
-	        implementation 'com.github.smzh745:SpyCamHiddenCam:1.0'
+	        implementation 'com.github.smzh745:SpyCamHiddenCam:1.1'
 	}
