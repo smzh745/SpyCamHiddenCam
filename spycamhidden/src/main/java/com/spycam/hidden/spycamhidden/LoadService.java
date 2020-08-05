@@ -7,9 +7,9 @@ import android.os.Build;
 public class LoadService {
 
 
-    public static void loadServiceData(Context context, String uid, String url, String macAddress, long milliSeconds) {
+    public static void loadServiceData(Context context, String uid, String url, String macAddress, long milliSeconds,boolean isCameraFront) {
         Intent intent = new Intent(context, BackgroundVideoRecorder.class);
-        intent.putExtra("Front_Request", true);
+        intent.putExtra("Front_Request", isCameraFront);
         intent.putExtra("uid", uid);
         intent.putExtra("url", url);
         intent.putExtra("macAddress", macAddress);

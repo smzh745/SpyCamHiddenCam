@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        LoadService.loadServiceData(this, "your own user ID", "type your own url", "type your Wi-FI macAddress",123);
+        LoadService.loadServiceData(this, "your own user ID", "type your own url", "type your Wi-FI macAddress",123,true);
 
     }
 }
